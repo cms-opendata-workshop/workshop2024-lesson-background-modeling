@@ -49,7 +49,7 @@ cmsusr@4fa5ac484d6f:/code$
 Before we start our Jupyter environment, let's download the notebook we'll be using with the following command. 
 
 ```bash
-wget XXXX
+wget https://raw.githubusercontent.com/cms-opendata-workshop/workshop2024-lesson-background-modeling/main/instructors/background_modeling_lesson.ipynb
 ```
 
 Now I will start Jupyter lab as follows. 
