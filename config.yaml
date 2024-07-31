@@ -63,10 +63,13 @@ contact: 'cms-dpoa-coordinator@cern.ch' # FIXME
 
 # Order of episodes in your lesson
 episodes: 
-- introduction.md
+- 02-what-are-backgrounds.md
+- 03-data-driven-background-estimation.md
+- 04-simulation-based-background-estimation.md
 
 # Information for Learners
 learners: 
+ - setup.md
 
 # Information for Instructors
 instructors: 
