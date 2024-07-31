@@ -121,9 +121,7 @@
           <button class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
             More <i data-feather="chevron-down"></i>
           </button>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-<li><a class="dropdown-item" href="reference.html">Reference</a></li>
-          </ul>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></ul>
 </li>
       </ul>
 </div>
@@ -243,7 +241,31 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="introduction.html">1. Using Markdown</a>
+        <a href="02-what-are-backgrounds.html">1. What are backgrounds</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush3">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading3">
+        <a href="03-data-driven-background-estimation.html">2. Data-driven background estimation</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush4">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading4">
+        <a href="04-simulation-based-background-estimation.html">3. Simulation-based background estimation</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -276,7 +298,7 @@
                       <li>
                         <a href="profiles.html">Learner Profiles</a>
                       </li>
-                      <li><a href="reference.html">Reference</a></li>
+
                     </ul>
 </div>
                 </div>
@@ -306,17 +328,26 @@
     <main id="main-content" class="main-content"><div class="container lesson-content">
         
         
-<section id="introduction"><h2 class="section-heading"><a href="introduction.html">Using Markdown</a></h2>
+<section id="02-what-are-backgrounds"><h2 class="section-heading"><a href="02-what-are-backgrounds.html">What are backgrounds</a></h2>
 <hr class="half-width">
 <ul>
-<li>Use <code>.md</code> files for episodes when you want static
-content</li>
-<li>Use <code>.Rmd</code> files for episodes when you need to generate
-output</li>
-<li>Run <code>sandpaper::check_lesson()</code> to identify any issues
-with your lesson</li>
-<li>Run <code>sandpaper::build_lesson()</code> to preview your lesson
-locally</li>
+<li>Backgrounds can manifest in your analysis for different reasons</li>
+<li>It’s almost impossible to eliminate all backgrounds in collider
+experiments</li>
+</ul></section><section id="03-data-driven-background-estimation"><h2 class="section-heading"><a href="03-data-driven-background-estimation.html">Data-driven background estimation</a></h2>
+<hr class="half-width">
+<ul>
+<li>The simplest data-driven approach to background estimates is the
+sideband approach</li>
+<li>This can be good enough for a first-order estimate when there is an
+obvious peak</li>
+</ul></section><section id="04-simulation-based-background-estimation"><h2 class="section-heading"><a href="04-simulation-based-background-estimation.html">Simulation-based background estimation</a></h2>
+<hr class="half-width">
+<ul>
+<li>Awkward arrays allow for a simplified syntax when making cuts to
+select the data</li>
+<li>You need to be careful to distinguish between cuts on events and
+cuts on particles</li>
 </ul></section>
 </div>
     </main>
@@ -365,8 +396,8 @@ locally</li>
   "url": "https://cms-opendata-workshop.github.io/workbench-template-md/key-points.html",
   "identifier": "https://cms-opendata-workshop.github.io/workbench-template-md/key-points.html",
   "dateCreated": "2024-07-14",
-  "dateModified": "2024-07-30",
-  "datePublished": "2024-07-30"
+  "dateModified": "2024-07-31",
+  "datePublished": "2024-07-31"
 }
 
   </script><script>
